@@ -9,7 +9,8 @@ c. Npm run start
 ## Helpful
 `npm run watch`
 
-## Steps
+## Steps and useful commands
 1. Setup https users using git credentials 
 2. git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo my-demo-repo
-3. 
+3. git branch -m master main
+4. aws sts get-caller-identity
