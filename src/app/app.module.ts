@@ -12,7 +12,8 @@ import { MythicalMysfitProfileService } from './services/mythical-mysfit-profile
     MysticalMysfitProfileGridComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [MythicalMysfitProfileService],
   bootstrap: [AppComponent]
